@@ -25,3 +25,10 @@
     margin:0px;
     color: black;
 }
+body{
+    padding:50px;
+    z-index: 0;
+}
+.navbar-dark{
+    background-color: #512DA8;
+}
