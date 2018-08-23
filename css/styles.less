@@ -2,7 +2,7 @@
 
 @background-dark:#512DA8;
 @background-light:#9575CD;
-@background-pale:#D1C4E9;
+@background-pale:rgb(128, 75, 226);
 
 @carousel-item-height: 300px;
 
@@ -28,7 +28,7 @@
     
     .jumbotron {
         .zero-margin(70px,30px);
-        background: @background-light ;
+        background-color: @background-light ;
         color:floralwhite;
     }
     
@@ -44,7 +44,7 @@
     }
     
     .navbar-dark {
-         background-color: @background-dark;
+         background-color:@background-dark;
     }
     
     .tab-content {
@@ -54,7 +54,7 @@
         padding: 10px;
     }
     .carousel {
-        background:@background-dark;
+        background-color:@background-dark;
     
         .carousel-item {
             height: @carousel-item-height;
@@ -72,3 +72,9 @@
         position: absolute;
         bottom: 0px;
     }
+.modal-body {
+    background-color: @background-light;
+}
+.modal-header {
+    background-color:@background-dark;
+}
